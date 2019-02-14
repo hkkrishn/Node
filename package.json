@@ -1,0 +1,20 @@
+{
+  "name": "node-related-work",
+  "version": "1.0.0",
+  "description": "a collection of projects and work that relate to node",
+  "main": "servercreate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node ./Node_Work/servercreate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hkkrishn/Node.git"
+  },
+  "author": "Harikrishnan Kuppusamykrishnan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hkkrishn/Node/issues"
+  },
+  "homepage": "https://github.com/hkkrishn/Node#readme"
+}
