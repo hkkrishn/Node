@@ -6,9 +6,17 @@ const adminData = require('./admin');
 //mini express app
 
 router.get('/',(req,res,next)=>{
-  console.log(adminData.products);
-  //console.log(req.body);
-  res.sendFile(path.join(rootDir,'views','shop.html'))
+  const products  = adminData.products;
+  const description = adminData.description;
+
+  res.render('shop',{
+    prods:products,
+    pageTitle:'Shop',
+    path:'/',
+    hasProducts:products.length>0,
+    activeShop: true,
+    productCSS:true
+  });
  
 });
 
